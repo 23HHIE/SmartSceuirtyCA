@@ -1,4 +1,4 @@
-# SmartSecurityCA()
+# SmartSecurityCA
 
 # Note:Newly created repo after readjusting the request definition in the proto file - 2023/08/08
 

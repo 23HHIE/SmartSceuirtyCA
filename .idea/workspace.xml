@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7c9aee4c-03f9-4e4d-913e-fdff2451adab" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ds/JmDnsServiceDiscovery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ds/JmDnsServiceDiscovery.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ds/JmDnsServiceRegistration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ds/JmDnsServiceRegistration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ds/SecurityClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ds/SecurityClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ds/SecurityServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ds/SecurityServer.java" afterDir="false" />
-    </list>
+    <list default="true" id="7c9aee4c-03f9-4e4d-913e-fdff2451adab" name="Changes" comment="The 2nd version of project after modifying the definitions in the proto file" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -106,6 +97,18 @@
       <option name="presentableId" value="Default" />
       <updated>1691493225557</updated>
     </task>
+    <task id="LOCAL-00001" summary="The 2nd version of project after modifying the definitions in the proto file">
+      <created>1691494379323</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1691494379323</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="The 2nd version of project after modifying the definitions in the proto file" />
+    <option name="LAST_COMMIT_MESSAGE" value="The 2nd version of project after modifying the definitions in the proto file" />
   </component>
 </project>
