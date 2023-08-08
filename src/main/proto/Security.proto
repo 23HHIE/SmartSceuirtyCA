@@ -1,0 +1,40 @@
+syntax = "proto3";
+
+option java_multiple_files = false;
+option java_package = "ds";
+option java_outer_classname ="SecurityImpl";
+
+
+package ds;
+
+//Definition and interface of the monitor server
+service Monitor{
+  //use for daily video monitor with server streaming type
+  rpc streamVideoFrames(MyRequest) returns (stream MyReply){}
+
+  //use for long staying monitor that staying over 15 secs with bidirectional streaming
+  rpc longStaying(stream MyRequest) returns (stream MyReply){}
+}
+
+service Access{
+  //use for accessing method with the client streaming type
+  rpc accessing(stream MyRequest) returns(MyReply){}
+}
+
+service Intrusion{
+  //use for intrusion method with the unary type
+  rpc intrusion(MyRequest) returns(MyReply){}
+}
+
+
+//Request message definition
+message MyRequest {
+  string message = 1;
+}
+
+//Response message definition
+message MyReply {
+  bytes frameData = 1;
+  string message = 2;
+}
+
